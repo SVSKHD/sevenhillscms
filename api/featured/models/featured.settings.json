@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "featured_contents",
+  "collectionName": "featureds",
   "info": {
-    "name": "featuredContent"
+    "name": "featured"
   },
   "options": {
     "increments": true,
@@ -15,10 +15,13 @@
     "Content": {
       "type": "richtext"
     },
+    "Subtitle": {
+      "type": "string"
+    },
     "slug": {
       "type": "uid"
     },
-    "CoverImage": {
+    "Cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
