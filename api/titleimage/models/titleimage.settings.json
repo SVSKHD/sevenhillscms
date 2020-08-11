@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "titleimages",
+  "info": {
+    "name": "titleimage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titleimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
