@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "corona_cases",
+  "info": {
+    "name": "Corona cases"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}

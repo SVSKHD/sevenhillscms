@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/corona-cases",
+      "handler": "corona-cases.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/corona-cases/count",
+      "handler": "corona-cases.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/corona-cases/:id",
+      "handler": "corona-cases.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/corona-cases",
+      "handler": "corona-cases.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/corona-cases/:id",
+      "handler": "corona-cases.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/corona-cases/:id",
+      "handler": "corona-cases.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
