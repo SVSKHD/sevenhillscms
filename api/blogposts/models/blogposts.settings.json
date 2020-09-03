@@ -34,6 +34,9 @@
     },
     "Keywords": {
       "type": "text"
+    },
+    "published": {
+      "type": "boolean"
     }
   }
 }
